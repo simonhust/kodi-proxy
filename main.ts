@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.182.0/http/server.ts";
 
-// 代理配置映射
+// 代理配置映射------
 const PROXY_CONFIG = [
   {
     pathPrefix: "/tmdb/",
