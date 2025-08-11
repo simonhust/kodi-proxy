@@ -1,5 +1,5 @@
 import { serve } from "https://deno.land/std@0.192.0/http/server.ts";
-import { proxy } from "https://deno.land/x/http_proxy@0.4.0/mod.ts";
+import { proxy } from "https://deno.land/x/http_proxy@0.7.4/mod.ts";
 
 // 允许的目标API白名单（严格限制）
 const ALLOWED_APIS = [
